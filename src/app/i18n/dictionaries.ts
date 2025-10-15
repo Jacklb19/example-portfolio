@@ -27,6 +27,8 @@ export type Dictionary = {
     };
     editingTools: string;
     languages: string;
+    portfolio: string;
+    details: string;
   };
   switcher: { label: string; es: string; en: string };
 };
@@ -86,6 +88,9 @@ const dictionaries: Record<Lang, Dictionary> = {
       },
       editingTools: "Herramientas de edición",
       languages: "Idiomas",
+      portfolio: "Portafolio",
+      details: "Detalles",
+
     },
     switcher: { label: "Idioma", es: "Español", en: "Inglés" },
   },
@@ -143,6 +148,8 @@ const dictionaries: Record<Lang, Dictionary> = {
       },
       editingTools: "Editing Tools",
       languages: "Languages",
+      portfolio: "Portfolio",
+      details: "Details",
     },
     switcher: { label: "Language", es: "Spanish", en: "English" },
   },
